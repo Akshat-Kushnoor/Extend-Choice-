@@ -1,25 +1,13 @@
 {
   "name": "ex10dchoice",
   "version": "1.0.0",
-  "private": true,
-  "workspaces": [
-    "frontend",
-    "backend/functions",
-    "shared"
-  ],
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run dev:frontend\" \"npm run serve:functions\"",
-    "dev:frontend": "npm run dev --workspace=frontend",
-    "serve:functions": "npm run serve --workspace=backend/functions",
-    "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces",
-    "deploy": "node scripts/deploy-firebase.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
