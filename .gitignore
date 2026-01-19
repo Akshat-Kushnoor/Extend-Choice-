@@ -5,6 +5,10 @@ node_modules/
 
 Manual.txt
 
+demo.html
+frontend/demo.html
+backend/demo.html
+
 # Environment variables
 .env
 .env.local
@@ -47,7 +51,7 @@ coverage/
 *.swp
 *.swo
 
-
+node_modules
 
 # OS
 .DS_Store
