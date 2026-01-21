@@ -1,5 +1,5 @@
 {
-  "name": "opportunity-tracker",
+  "name": "extend-choice",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -17,8 +17,6 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   }
+
 }
