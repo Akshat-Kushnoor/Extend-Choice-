@@ -1,8 +1,14 @@
+import ApiError from "./ApiError";
+
 const asyncHandler = (fn) => {
   return (req, res, next) => {
     Promise.resolve(fn(req, res, next)).catch(next);
   };
 };
+
+if(process.env.NODE_ENV !== 'production') {
+  throw new ApiError("Invalid environment");
+}
 
 export default asyncHandler;
 
